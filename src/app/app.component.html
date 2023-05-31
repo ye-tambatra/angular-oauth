@@ -1,13 +1,14 @@
 <app-header />
 <main>
   <div>
-    <h1>TRY 0AUTH NOW</h1>
-    <p>
+    <h1 class="title">TRY 0AUTH NOW</h1>
+    <p class="description">
       <b>Sign in with Github </b> to apply for the right job to enhance your
       career.
     </p>
-    <button>
-      <img src="assets/github.png" alt="Github icon" /> Sign in with Github
+    <button class="sign-in-button" (click)="onSignInClicked()">
+      <img src="assets/github.png" alt="Github icon" class="github-icon" /> Sign
+      in with Github
     </button>
   </div>
 </main>
